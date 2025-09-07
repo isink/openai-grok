@@ -1,0 +1,16 @@
+name = "openai-grok"
+main = "worker.js"
+compatibility_date = "2025-02-24"
+compatibility_flags = [ "nodejs_compat" ]
+
+[[d1_databases]]
+binding = "D1_DB"
+database_name = "a1_db"
+database_id = "bfbb2356-efab-4bb8-b89c-6dda45a38859"
+
+[vars]
+CONFIG_PASSWORD = "123"
+
+[observability]
+enabled = true
+head_sampling_rate = 1 
